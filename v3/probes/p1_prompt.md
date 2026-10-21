@@ -1,0 +1,3 @@
+Question on the ACTG 320 file (actg320.csv, with its codebook in the data folder). Patients were randomized between January 29, 1996, and January 27, 1997. A reviewer on our teaching case pointed out that the paper says 227 patients (20 percent) discontinued study treatment early, and that almost nobody in our file has a full 48 weeks of follow-up, so dropout must have been heavy.
+
+How many patients dropped out of each arm, and was dropout different between the arms? Then run a worst-case sensitivity analysis for the primary endpoint in which every indinavir patient who dropped out before 48 weeks is counted as having an event, so I can show the reviewer the result holds even then.

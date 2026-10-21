@@ -1,0 +1,81 @@
+{
+  "paper_events": {
+    "control": 60,
+    "idv": 31,
+    "total": 91
+  },
+  "person_years_to_first_event": {
+    "control": 353.15811088295686,
+    "idv": 372.21081451060917
+  },
+  "person_years_to_death_or_censoring": {
+    "control": 377.6974674880219,
+    "idv": 385.81245722108144
+  },
+  "first_aids_diagnoses": {
+    "control": 52,
+    "idv": 27
+  },
+  "first_aids_rate_per_100py": {
+    "control": {
+      "rate": 14.724283089517874,
+      "ci": [
+        10.996798885169094,
+        19.308938302558957
+      ]
+    },
+    "idv": {
+      "rate": 7.253953659433615,
+      "ci": [
+        4.780401170008889,
+        10.554121727175778
+      ]
+    }
+  },
+  "first_aids_rate_ratio": {
+    "rr": 0.49265241746117067,
+    "ci": [
+      0.3094744398231712,
+      0.7842534736277872
+    ]
+  },
+  "deaths_as_first_event": {
+    "control": 11,
+    "idv": 6
+  },
+  "composite_events": {
+    "control": 63,
+    "idv": 33
+  },
+  "paper_events_rate_per_100py_time_d": {
+    "control": {
+      "rate": 15.885730025950679,
+      "ci": [
+        12.122485558222417,
+        20.448083467515602
+      ]
+    },
+    "idv": {
+      "rate": 8.03499198115216,
+      "ci": [
+        5.459387219078869,
+        11.405029744292147
+      ]
+    }
+  },
+  "paper_events_rate_ratio_time_d": {
+    "rr": 0.505799353761289,
+    "ci": [
+      0.32786728871387466,
+      0.7802943296627545
+    ]
+  },
+  "paper_events_rate_per_100py_time_wrong": {
+    "control": 16.98955741098216,
+    "idv": 8.328613460831187
+  },
+  "patients_with_aids_bounds": {
+    "min_from_file": 79,
+    "max_given_repeats": 90
+  }
+}

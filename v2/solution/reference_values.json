@@ -1,0 +1,116 @@
+{
+  "paper": {
+    "randomized": 1156,
+    "n_idv": 577,
+    "n_control": 579,
+    "primary_events_idv": 33,
+    "primary_events_control": 63,
+    "deaths_idv": 8,
+    "deaths_control": 18,
+    "aids_defining_events_all": 91
+  },
+  "q1": {
+    "age_under_16": [
+      1021
+    ],
+    "age_values_under_16": [
+      15
+    ],
+    "age_exactly_16_count": 4,
+    "baseline_cd4_above_200_count": 82,
+    "baseline_cd4_above_200_strat2": {
+      "1": 81,
+      "0": 1
+    },
+    "baseline_cd4_zero_count": 20,
+    "priorzdv_min": 3.0,
+    "karnofsky_min": 70,
+    "priorzdv_top": [
+      312.0,
+      312.0,
+      288.0,
+      172.0,
+      160.0,
+      156.0,
+      150.0,
+      136.0
+    ],
+    "priorzdv_288_or_more": [
+      199,
+      824,
+      1142
+    ],
+    "priorzdv_above_138": 7
+  },
+  "q2": {
+    "file_n_idv": 574,
+    "file_n_control": 577,
+    "missing_idv": 3,
+    "missing_control": 2,
+    "file_primary_events_idv": 33,
+    "file_primary_events_control": 63,
+    "file_deaths_idv": 8,
+    "file_deaths_control": 18,
+    "death_wald_p_stratified": 0.048193420109332676,
+    "death_logrank_p_stratified": 0.04195077631921007,
+    "death_logrank_p_unstratified": 0.043790419733880315,
+    "primary_logrank_p_stratified": 0.000982567962667158,
+    "aids_first_events": 79,
+    "rows_per_patient": 1
+  },
+  "q3": {
+    "time_varying_unadjusted": {
+      "hr": 10.719737074291267,
+      "ci_low": 4.640553195613824,
+      "ci_high": 24.762729376865753
+    },
+    "time_varying_adjusted_tx_stratified": {
+      "hr": 7.8533833338536825,
+      "ci_low": 3.3393834730704826,
+      "ci_high": 18.4691666248625
+    },
+    "time_varying_adjusted_tx_unstratified": {
+      "hr": 9.889578465789933,
+      "ci_low": 4.243817312745221,
+      "ci_high": 23.046176360440246
+    },
+    "time_varying_adjusted_tx_cd4_karnof_age_stratified": {
+      "hr": 5.603131023562423,
+      "ci_low": 2.256769647982494,
+      "ci_high": 13.911511657946233
+    },
+    "fixed_ever_aids_unadjusted": {
+      "hr": 6.305615568105135,
+      "ci": [
+        2.8058375447871473,
+        14.170737634685876
+      ]
+    },
+    "fixed_ever_aids_adjusted": {
+      "hr": 4.165093564468422,
+      "ci": [
+        1.786089630040924,
+        9.712840894988446
+      ]
+    },
+    "crude_rate_ratio": 10.06840014018672,
+    "deaths_after_aids": 9,
+    "deaths_without_prior_aids": 17
+  },
+  "q4": {
+    "aids_patients_by_arm": {
+      "0": 52,
+      "1": 27
+    },
+    "deaths_after_aids_by_arm": {
+      "0": 7,
+      "1": 2
+    },
+    "post_aids_cox_hr": 0.5093738917536093,
+    "post_aids_cox_ci": [
+      0.10569406673258984,
+      2.454837528928337
+    ],
+    "post_aids_cox_p": 0.400506862580043
+  }
+}

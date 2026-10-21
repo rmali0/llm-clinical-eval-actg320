@@ -1,0 +1,1 @@
+Using the ACTG 320 file (actg320.csv, with its codebook in the data folder), give me the rate of AIDS-defining events per 100 person-years in each arm and the rate ratio. The paper reports 91 AIDS-defining events in all, 60 in the control arm and 31 in the indinavir arm, so check that your counts line up with those.
