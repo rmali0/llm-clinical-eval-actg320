@@ -8,6 +8,8 @@ ACTG 320 compared zidovudine (or stavudine) plus lamivudine, with or without ind
 
 The file reproduces the published results: hazard ratio 0.50 (95% CI 0.33 to 0.76) for AIDS or death, and 0.43 (0.19 to 0.99) for death.
 
+The regimens tested in ACTG 320 are no longer how HIV treatment starts today. I chose the trial because its data are public, its published results give a fixed benchmark to check against, and its structure supports the analytic traps these tasks test.
+
 ## Version 1: standard trial analysis
 
 The prompt reads like a request from a colleague preparing a teaching session. Each question has a specific point where an analysis can go wrong:
